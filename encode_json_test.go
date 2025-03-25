@@ -11,7 +11,7 @@ func logJson(data interface{}) {
 	if err != nil {
 		panic(err)
 	}
-	fmt.Println(string(bytes))
+	fmt.Println("\n", string(bytes))
 }
 
 func TestEncode(t *testing.T) {
